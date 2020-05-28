@@ -2,6 +2,7 @@
 using namespace std;
 #define ll long long
 #define vi vector<int>
+#define vll vector<long long>
 #define pb push_back
 #define F first
 #define S second
