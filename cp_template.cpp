@@ -1,12 +1,14 @@
-#include <iostream>
+#include<bits/stdc++.h>
 using namespace std;
-#define ios_base::sync_with_stdio(false);cin.tie(NULL); fast
-#define int t;cin>>t;while(t--) test
-#define MOD 1000000007
-#define long long ll
-#define finc(i,a,b,in) for(int i=a; i<b;i+=in)
-#define fdec(i,a,b,dec) for(int i=a;i>=b; i-=dec)
-#define int arr[n] inta(n)
-#define ll arr[n]  lla(n)
-#define cin>>n cin(n)
-#define cout<<n cout(n)
+#define ll long long
+#define vi vector<int>
+#define pb push_back
+#define F first
+#define S second
+#define M 1000000007
+
+int main(){
+  ios_base::sync_with_stdio (false);
+  cin.tie (NULL);
+  return 0;
+}
