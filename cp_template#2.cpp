@@ -10,6 +10,10 @@ using namespace std;
 # define ac accumulate
 # define mod 1000000007
 # define IOS ios::sync_with_stdio(0); cin.tie(0); cout.tie(0);
+#define t     \
+    int t;    \
+    cin >> t; \
+    while (t--)
 # define trace1(x)                cerr << #x << ": " << x << "\n";
 # define trace2(x, y)             cerr << #x << ": " << x << " | " << #y << ": " << y << "\n";
 # define trace3(x, y, z)          cerr << #x << ": " << x << " | " << #y << ": " << y << " | " << #z << ": " << z << "\n";
