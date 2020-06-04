@@ -6,6 +6,9 @@ using namespace std;
 #define fin1(i,a,b) for(int i=a;i<=b;i++)
 #define fde0(i,a,b) for(int i=a;i>b;i--)
 #define fde1(i,a,b) for(int i=a;i>=b;i--)
+#define vi vector<int>
+#define vll vector<ll>
+#define vboo vector<bool>
 #define all(a) a.begin(),a.end()
 # define pb push_back
 # define pp pop_back
