@@ -2,10 +2,10 @@
 using namespace std;
 # define ll  long long  int
 # define ld  long double
-#define fin0(i,a,b) for(int i=a;i<b;i++)
-#define fin1(i,a,b) for(int i=a;i<=b;i++)
-#define fde0(i,a,b) for(int i=a;i>b;i--)
-#define fde1(i,a,b) for(int i=a;i>=b;i--)
+#define fin0(i,a,b,c) for(int i=a;i<b;i+=c)
+#define fin1(i,a,b,c) for(int i=a;i<=b;i+=c)
+#define fde0(i,a,b,c) for(int i=a;i>b;i-=c)
+#define fde1(i,a,b,c) for(int i=a;i>=b;i-=c)
 #define vi vector<int>
 #define vll vector<ll>
 #define vboo vector<bool>
