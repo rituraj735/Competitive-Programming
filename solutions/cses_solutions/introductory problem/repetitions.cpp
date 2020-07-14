@@ -26,23 +26,24 @@ using namespace std;
 # define trace2(x, y)             cerr << #x << ": " << x << " | " << #y << ": " << y << "\n";
 # define trace3(x, y, z)          cerr << #x << ": " << x << " | " << #y << ": " << y << " | " << #z << ": " << z << "\n";
 # define trace4(a, b, c, d)       cerr << #a << ": " << a << " | " << #b << ": " << b << " | " << #c << ": " << c << " | " << #d << ": " << d << "\n";
-#define max_size 200000
+
 
 int main(){
   IOS;
-  int n;
-  cin>>n;
-  string str="";
-  if(n<=3 && n>1){
-    cout<<"NO SOLUTION";
-    return 0;
-  }
-  fin1(i,1,n,1){
-     if(i%2==0)
-         cout<<i<<" ";
+  string s;
+  cin>>s;
+  int n= s.size();
+  int char_count=1;
+  int maximum= 1;
+  fin0(i,1,n,1){
+     if(s[i]==s[i-1]){
+         char_count++;
+         maximum = max(char_count,maximum);
+     }
      else
-        str += to_string(i)+" ";
+        char_count=1;
+
   }
-  cout<<str;
+  cout<<maximum<<"\n";
   return 0;
 }

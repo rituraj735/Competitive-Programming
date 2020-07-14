@@ -32,17 +32,17 @@ int main(){
   IOS;
   int n;
   cin>>n;
-  string str="";
-  if(n<=3 && n>1){
-    cout<<"NO SOLUTION";
-    return 0;
+  ll arr[n];
+  ll cost=0;
+  fin0(i,0,n,1)
+     cin>>arr[i];
+  fin0(i,1,n,1){
+    if(arr[i]- arr[i-1]<0){
+        cost += abs(arr[i]-arr[i-1]);
+        arr[i]= arr[i-1];
+    }
+
   }
-  fin1(i,1,n,1){
-     if(i%2==0)
-         cout<<i<<" ";
-     else
-        str += to_string(i)+" ";
-  }
-  cout<<str;
+  cout<<cost<<"\n";
   return 0;
 }

@@ -27,22 +27,25 @@ using namespace std;
 # define trace3(x, y, z)          cerr << #x << ": " << x << " | " << #y << ": " << y << " | " << #z << ": " << z << "\n";
 # define trace4(a, b, c, d)       cerr << #a << ": " << a << " | " << #b << ": " << b << " | " << #c << ": " << c << " | " << #d << ": " << d << "\n";
 #define max_size 200000
+int arr[max_size];
 
 int main(){
   IOS;
   int n;
   cin>>n;
-  string str="";
-  if(n<=3 && n>1){
-    cout<<"NO SOLUTION";
-    return 0;
+
+  memset(arr,0,max_size);
+  int num;
+  fin0(i,0,n,1){
+     cin>>num;
+     arr[num-1]= num;
   }
-  fin1(i,1,n,1){
-     if(i%2==0)
-         cout<<i<<" ";
-     else
-        str += to_string(i)+" ";
+  fin0(i,0,n,1){
+     if(arr[i]==0)
+     {
+         cout<<i+1;
+         break;
+     }
   }
-  cout<<str;
   return 0;
 }
