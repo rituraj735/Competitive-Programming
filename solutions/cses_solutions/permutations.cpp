@@ -34,7 +34,7 @@ int main(){
   int n;
   cin>>n;
   string str="";
-  if(n<=3){
+  if(n<=3 && n>1){
     cout<<"NO SOLUTION";
     return 0;
   }
