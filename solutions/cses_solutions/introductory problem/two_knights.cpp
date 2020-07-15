@@ -30,7 +30,7 @@ using namespace std;
 
 int main(){
   IOS;
-  // This problem could have recursive solution but here I solve it in O(1) time using simple combinatronics
+  // This problem could have recursive solution but here I solve it in O(n) time using simple combinatronics
   ll n;
   cin>>n;
   fin1(i,1,n,1){
