@@ -1,3 +1,4 @@
+//Problem statement @: https://practice.geeksforgeeks.org/problems/number-of-connected-components/1/?track=DSASP-DisjointSet&batchId=154
 #include <bits/stdc++.h>
 using namespace std;
 int arr[100001];
