@@ -1,3 +1,5 @@
+// Problem statement @: https://practice.geeksforgeeks.org/problems/bridge-edge-in-graph/1/?track=DSASP-Graph&batchId=154
+
 #include <bits/stdc++.h>
 using namespace std;
 bool isBridge(list<int> adj[], int V, int u, int v);
