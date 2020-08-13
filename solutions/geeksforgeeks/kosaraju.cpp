@@ -1,3 +1,5 @@
+//Problem statement @: https://practice.geeksforgeeks.org/problems/strongly-connected-components-kosarajus-algo/1/?track=DSASP-Graph&batchId=154
+
 #include<bits/stdc++.h>
 using namespace std;
 
