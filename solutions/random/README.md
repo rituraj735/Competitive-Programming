@@ -14,3 +14,6 @@
 
 **most_booked_room.cpp**
 > Is the solution to a Google intern position question [Most Booked Hotel Room](https://leetcode.com/discuss/interview-question/421787/).
+
+**maxgcd_mingcd_diff.cpp**
+> Is the solution to a Google intern position question [Greatest Common Divisor](https://leetcode.com/discuss/interview-question/396996/).
