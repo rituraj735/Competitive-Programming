@@ -11,3 +11,6 @@
 
 **partition_2arrays_minabsdiff_recursion.cpp**
 > Is the solution to a Google intern position question [Min Abs Difference of Server Loads](https://leetcode.com/discuss/interview-question/356433/). The question has been solved using recursion.
+
+**most_booked_room.cpp**
+> Is the solution to a Google intern position question [Most Booked Hotel Room](https://leetcode.com/discuss/interview-question/421787/).
