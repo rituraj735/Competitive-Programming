@@ -4,7 +4,8 @@
 ....
 ....
 ....
-  while(cin>>n>>m, !(n==0 && m==0)){   // takes input till n and m are being entered and neither n nor m is 0
+  // takes input till n and m are being entered and neither n nor m is 0
+  while(cin>>n>>m, !(n==0 && m==0)){   
   int from , to;
   vii adj(n);
   for(int i=0; i<m; i++){
