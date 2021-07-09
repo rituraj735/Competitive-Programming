@@ -1,1 +1,2 @@
 - to find max in a array/vector[https://www.geeksforgeeks.org/max_element-in-cpp/]
+- Lis in NlogN [https://www.geeksforgeeks.org/longest-monotonically-increasing-subsequence-size-n-log-n/]
